@@ -1,0 +1,17 @@
+
+---
+
+# 💻 FULL CODE (WITH COMMENTS)
+
+---
+
+# 📦 `requirements.txt`
+```txt
+# Streamlit for building the dashboard UI
+streamlit
+
+# Requests library for calling your API
+requests
+
+# Pandas for handling structured data
+pandas
