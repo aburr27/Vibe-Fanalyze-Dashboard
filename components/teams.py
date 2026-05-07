@@ -1,6 +1,20 @@
 # UI component for displaying teams
 
-import streamlit as st
+try:
+    import streamlit as st  # type: ignore[import-not-found]
+except ImportError:
+    class _StreamlitFallback:
+        def header(self, *_args, **_kwargs):
+            pass
+
+        def warning(self, message):
+            print(message)
+
+        def write(self, message):
+            print(message)
+
+    st = _StreamlitFallback()
+
 from services.api_client import get_teams
 
 

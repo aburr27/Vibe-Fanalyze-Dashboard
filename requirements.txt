@@ -15,3 +15,5 @@ requests
 
 # Pandas for handling structured data
 pandas
+
+matplotlib

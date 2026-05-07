@@ -7,6 +7,7 @@ An interactive sports analytics dashboard built with Streamlit that consumes the
 ## 🚀 Overview
 
 The Vibe-Fanalyze Dashboard provides a user-friendly interface to:
+
 - Explore teams, players, and games
 - Visualize sports data
 - Interact with backend analytics
@@ -45,5 +46,6 @@ This dashboard connects to:
 👉 Vibe-Fanalyze API (FastAPI backend)
 
 Make sure your API is running:
+
 ```bash
 uvicorn app.main:app --reload
